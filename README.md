@@ -1,15 +1,68 @@
 # Code Repository Manager (OpenClaw Skill)
 
-Evaluates repository/PR quality gates (lint, tests, coverage, vuln status) and produces merge recommendations with optimization suggestions.
+**Build better OpenClaw bots, faster.**
+
+Evaluates repository quality gates and outputs merge-readiness recommendations with optimization notes.
+
+## Why this skill is useful
+
+- Reduces manual operations and repetitive decision overhead
+- Improves consistency and reliability in production workflows
+- Gives you a reusable automation block you can compose with other skills
+
+## What you can do with it
+
+- Run focused automation workflows around **Code Repository Manager**
+- Adapt behavior to your own process and constraints
+- Integrate outputs with your existing OpenClaw routines
 
 ## Quick Start
+
 ```bash
-python3 scripts/evaluate_repo.py --input references/sample-repo-state.json --out ./out/repo-eval.json --audit ./out/repo-eval.md
+# Clone
+git clone https://github.com/mogus-prog/code-repository-manager-skill.git
+cd code-repository-manager-skill
+
+# Read usage and run sample flow from SKILL.md
 ```
 
-## Output
-- Decision: `approve` / `hold` / `reject`
-- Suggestions for optimization and risk reduction
+> This repository is designed to be used as an OpenClaw skill package. Start with `SKILL.md` for trigger guidance and workflow steps.
 
-## Commercial Support
-Contact **DirtyLeopard.com** for CI policy integration and automated devops workflows.
+## Ideal use cases
+
+- Personal AI operators who need dependable routines
+- Builders running multi-step automations
+- Teams who want reusable operational playbooks
+
+## Pair it with other skills
+
+This skill works best as part of a larger stack (monitoring + planning + execution + safety).
+
+## Commercial support / custom builds
+
+Want this adapted to your exact workflow and tech stack?
+
+- Custom implementation
+- Integration with your existing OpenClaw setup
+- Security hardening + approval-gated actions
+- Ongoing optimization and support
+
+**Contact:** https://dirtyleopard.com
+
+## Service Packages
+
+| Package | Price | Includes |
+|---|---:|---|
+| Starter Skill | $399 | 1 custom skill, setup docs, 1 revision |
+| Growth Bundle | $1,200 | 3 custom skills, workflow integration, 14-day support |
+| Operator Suite | $3,000+ | 5–8 skills, orchestration, security/reliability tuning |
+
+For commercial licensing or retainers, open an issue in this repo or contact via DirtyLeopard.com.
+
+## Contributing
+
+PRs and issues are welcome. If you test this in production, share results and edge cases.
+
+## License
+
+MIT

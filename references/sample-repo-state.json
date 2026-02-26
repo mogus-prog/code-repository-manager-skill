@@ -1,0 +1,11 @@
+{
+  "repo": "mogus-prog/sample-app",
+  "pr": 42,
+  "pr_size_lines": 420,
+  "checks": {
+    "lint": "pass",
+    "tests": "pass",
+    "coverage": 76,
+    "vuln_high": 0
+  }
+}
